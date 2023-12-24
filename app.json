@@ -8,8 +8,6 @@
     ],
     "website": "https://github.com/Amul-jat/Doodstreambot",
     "repository": "https://github.com/Amul-jat/Doodstreambot",
-    "stack": "heroku-20",
-
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token (must add)",
