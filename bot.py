@@ -49,7 +49,6 @@ async def start(bot, message):
 async def Doodstream_uploader(bot, message):
     new_string = str(message.text)
     conv = await message.reply("Converting...")
-    dele = conv["message_id"]
     try:
         Doodstream_link = await multi_Doodstream_up(new_string)
         await bot.delete_messages(chat_id=message.chat.id, message_ids=dele)
